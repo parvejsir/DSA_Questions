@@ -1,3 +1,12 @@
+//count total no of colored cell
+class Solution {
+public:
+    long long coloredCells(int n) {
+      return 1 + 2LL * n * (n - 1);
+    }
+};
+
+
 //reconstruct a original digit
 class Solution {
 public:
